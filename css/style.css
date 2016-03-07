@@ -1,0 +1,59 @@
+.grid {
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: #2D2D2D;
+    min-width: 550px;
+}
+.tile {
+    width: 24%;
+    height: 220px;
+    margin: 0.5%;
+    float: left;
+    background-color: #FBFBFB;
+}
+.tile__head {
+    display: block;
+    margin: 10px;
+    padding: 3px;
+    max-height: 35px;
+    text-align: center;
+    border: 1px solid #DEDEDE;
+    background-color: #F5F4F4;
+    overflow: hidden;
+    font-weight: bold;
+}
+.tile-body {
+    margin: 10px;
+    padding: 10px;
+    height: 140px;
+    overflow: hidden;
+}
+.tile-body__img {
+    height: 60px;
+    margin-right: 10px;
+    padding: 5px;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.tile-body__copy {
+    margin: 0px;
+    height: 110px;
+    overflow: hidden;
+}
+.tile-body__cta {
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    border: 1px solid #2D2D2D;
+}
+@media screen and (max-device-width: 768px) {
+    .tile {
+        width: 49%;
+    }
+}
+@media screen and (max-device-width: 480px) {
+    .tile {
+        width: 99%;
+    }
+}
